@@ -1,0 +1,25 @@
+{
+	"id": "notion",
+	"name": "Notion",
+	"version": "1.0.0",
+	"description": "Notion",
+	"main": "index.js",
+	"author": "Zakaria MEHBI <zakaria@mehbi.com>",
+	"license": "MIT",
+	"config": {
+		"serviceName": "Notion",
+		"serviceURL": "https://www.notion.so/login",
+		"message": "",
+		"popup": [],
+		"hasNotificationSound": true,
+		"hasDirectMessages": true,
+		"hasIndirectMessages": false,
+		"hasTeamID": false,
+		"hasPredefinedUrl": true,
+		"hasCustomUrl": false,
+		"webviewOptions": {
+			"disablewebsecurity": ""
+		},
+		"openDevTools": false
+	}
+}
